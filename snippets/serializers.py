@@ -1,6 +1,6 @@
 from tutorial.settings import INSTALLED_APPS
 from rest_framework import serializers
-from serialization.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
+from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
 
 
 class SnippetSerializer(serializers.ModelSerializer):
